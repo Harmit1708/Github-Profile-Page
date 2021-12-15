@@ -1,0 +1,82 @@
+/* First Part */
+.first{
+    height:100px;
+}
+img{
+    padding-top:10px;
+    height:92px;
+    float: left;
+}
+h3{
+    font-family: monospace;
+    padding-right: 50px;
+    padding-top:30px;
+}
+
+
+/* Second Part */
+body{
+    background-color:#cbd3c4;
+}
+
+input[type=text]{
+    background-color:#323537;
+}
+
+table,tbody,tr,td{
+    border: transparent;
+}
+
+/* Input boxes */
+#big_box{
+    display: flex;
+    margin-top:110px;
+    margin-left:40px;
+    height:550px;
+    width:325px;
+    border-radius: 20px;
+}
+
+#search_bar{
+    display: flex;
+    margin-top: 110px;
+    margin-left:250px;
+    height: 50px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+::placeholder
+{
+    padding-left: 10px;
+    font-family: monospace;
+    font-size:x-large;
+    letter-spacing:2px;
+    color:lightgray;
+
+}
+
+#meduim_box{
+    display: flex;
+    border-radius:10px;
+    margin-top: 25px;
+    height:180px;
+    width:280px;
+}
+
+#landscape_box{
+    display: flex;
+    border-radius:10px;
+    margin-top: 25px;
+    height:200px;
+    width:1300px;
+}
+
+input:focus[type-text]{
+    border: 0px;
+}
+
+
+td {
+ border-style : hidden;
+}
